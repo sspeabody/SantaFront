@@ -1,0 +1,22 @@
+body {
+  background-color:  #ffe9c2;
+  background-image: url(https://www.wallpapersun.com/wp-content/uploads/2020/12/4frZsP.jpg);
+  align-content: center;
+}
+.piedefoto{color:  #5b3b02 }
+.lista1{color: #5b3b02 }
+.sub1{color: #5b3b02}
+.sub2{color: #5b3b02}
+.lista2{color: #5b3b02}
+.lista3{color: #5b3b02}
+.titulo1{font-size: 250%}
+.titulo2{text-align: center;}
+.sub1{text-align: center;}
+.lista1{text-align: center;}
+.sub2{text-align: center;}
+.lista2{text-align: center;}
+.titulo3{text-align: center;}
+.lista3{text-align: center;}
+.titulo2{text-decoration: underline;}
+.titulo3{text-decoration: underline;}
+.fotoprincipal{width: 800px}
