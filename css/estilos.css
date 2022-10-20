@@ -1,7 +1,8 @@
 body {
   background-color:  #ffe9c2;
-  background-image: url(https://www.wallpapersun.com/wp-content/uploads/2020/12/4frZsP.jpg);
-  align-content: center;
+  background-image: url(../fotos/fondo.jpg);
+  background-repeat: repeat-y;
+  background-size: contain;
 }
 .piedefoto{color:  #5b3b02 }
 .lista1{color: #5b3b02 }
@@ -20,3 +21,4 @@ body {
 .titulo2{text-decoration: underline;}
 .titulo3{text-decoration: underline;}
 .fotoprincipal{width: 800px}
+.banner {width: 100%}
