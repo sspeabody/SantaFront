@@ -3,6 +3,7 @@ body {
   background-image: url(../fotos/fondo.jpg);
   background-repeat: repeat-y;
   background-size: contain;
+  justify-content: center;
 }
 .piedefoto{color:  #5b3b02 }
 .lista1{color: #5b3b02 }
@@ -11,18 +12,11 @@ body {
 .lista2{color: #5b3b02}
 .lista3{color: #5b3b02}
 .titulo1{font-size: 250%}
-.titulo2{text-align: center;}
-.sub1{text-align: center;}
-.lista1{text-align: center;}
-.sub2{text-align: center;}
-.lista2{text-align: center;}
-.titulo3{text-align: center;}
-.lista3{text-align: center;}
 .titulo2{text-decoration: underline;}
 .titulo3{text-decoration: underline;}
 .fotoprincipal{width: 800px}
 .banner {width: 100%}
-.iconowasap {width: 50px;
+.iconowasap {width: 70px;
   position: fixed;
   bottom: 10px;
   right: 15px;
@@ -30,11 +24,49 @@ body {
 }
 footer {display: flex;
   justify-content: center;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
+  height: 200px;
+  background-color: #FF8B8B;
+  align-items: center;
+  margin: 20px;
 }
+.redesbottom {width: 30%;
+              display: flex;
+              flex-direction: row;
+
+}
+
 
 .iconofb {width: 50%}
 .iconoig {width: 50%}
 .iconotw {width: 50%}
 .iconoyt {width: 50%}
+
+.logo {width: 10%;
+  }
+
+header {display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 200px;
+  border: 5px red solid;
+  align-items: center;
+  margin: 20px
+}
+
+.nombrepag {font-size: 300%;
+}
+
+.redestop {width: 30%;
+        display: flex;
+        justify-content: center;
+        justify-content: flex-end;
+}
+
+aside {display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  }
