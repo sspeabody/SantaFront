@@ -1,10 +1,18 @@
+@font-face {
+            font-family: "poor";
+            src: url("../fuentes/PoorStory-Regular.ttf")format("truetype");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 body {
   background-color:  #ffe9c2;
   background-image: url(../fotos/fondo.jpg);
   background-repeat: repeat-y;
   background-size: contain;
   justify-content: center;
-}
+  }
+.nombrepag {font-family: 'Indie Flower', cursive;}
 .piedefoto{color:  #5b3b02 }
 .lista1{color: #5b3b02 }
 .sub1{color: #5b3b02}
@@ -14,7 +22,7 @@ body {
 .titulo1{font-size: 250%}
 .titulo2{text-decoration: underline;}
 .titulo3{text-decoration: underline;}
-.fotoprincipal{width: 800px}
+.fotoprincipal{width: 50%}
 .banner {width: 100%}
 .iconowasap {width: 70px;
   position: fixed;
@@ -26,7 +34,7 @@ footer {display: flex;
   justify-content: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  height: 200px;
+  height: 30vh;
   background-color: #FF8B8B;
   align-items: center;
   margin: 20px;
@@ -38,10 +46,15 @@ footer {display: flex;
 }
 
 
-.iconofb {width: 50%}
-.iconoig {width: 50%}
-.iconotw {width: 50%}
-.iconoyt {width: 50%}
+.iconofb {width: 50px;
+  margin: 5px
+}
+.iconoig {width: 50px;
+  margin: 5px}
+.iconotw {width: 50px;
+  margin: 5px}
+.iconoyt {width: 50px;
+margin-top: 5px}
 
 .logo {width: 10%;
   }
@@ -50,23 +63,44 @@ header {display: flex;
   justify-content: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  height: 200px;
+  width: 90vw;
+  height: 30vh;
   border: 5px red solid;
   align-items: center;
   margin: 20px
 }
 
 .nombrepag {font-size: 300%;
+  display: flex;
+  justify-content: center;
 }
 
 .redestop {width: 30%;
         display: flex;
         justify-content: center;
         justify-content: flex-end;
-}
+    }
 
 aside {display: flex;
   flex-direction: column;
   align-items: center;
 
+  }
+
+  nav {display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    height: 30px;
+    font-family: "poor";
+    font-size: 200%
+    }
+
+a:hover { color: red;
+}
+
+section {display: flex;
+        flex-direction: column;
   }
