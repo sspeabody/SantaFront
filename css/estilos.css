@@ -17,12 +17,6 @@ body {
 .nombrepag {font-family: 'Indie Flower', cursive;
            display: flex;
            justify-content: center;}
-.piedefoto{color:  #5b3b02 }
-.lista1{color: #5b3b02 }
-.sub1{color: #5b3b02}
-.sub2{color: #5b3b02}
-.lista2{color: #5b3b02}
-.lista3{color: #5b3b02}
 .titulo1{font-size: 250%}
 .titulo2{text-decoration: underline;}
 .titulo3{text-decoration: underline;}
@@ -128,7 +122,7 @@ a:hover { color: red;
 .col-lg-3 {
   display: flex;
   justify-content: space-between;
-}
+  }
 
 @media (max-width: 575px) {
   body {background-color: white;
